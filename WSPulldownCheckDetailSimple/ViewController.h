@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    UITableView   *_tableView;
+}
 
+@property (nonatomic,retain)UIScrollView  *myScrollView;
 
 @end
+
 

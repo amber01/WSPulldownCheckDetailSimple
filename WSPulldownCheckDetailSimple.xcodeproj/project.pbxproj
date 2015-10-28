@@ -14,6 +14,18 @@
 		DBF79C711BE0AF7F000CFA67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF79C701BE0AF7F000CFA67 /* Images.xcassets */; };
 		DBF79C741BE0AF7F000CFA67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF79C721BE0AF7F000CFA67 /* LaunchScreen.xib */; };
 		DBF79C801BE0AF7F000CFA67 /* WSPulldownCheckDetailSimpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF79C7F1BE0AF7F000CFA67 /* WSPulldownCheckDetailSimpleTests.m */; };
+		DBF79C8E1BE0B0DA000CFA67 /* OneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF79C8B1BE0B0DA000CFA67 /* OneTableViewController.m */; };
+		DBF79C8F1BE0B0DA000CFA67 /* TwoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF79C8D1BE0B0DA000CFA67 /* TwoTableViewController.m */; };
+		DBF79C971BE0B113000CFA67 /* GoodsLoadMoreFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF79C921BE0B113000CFA67 /* GoodsLoadMoreFootView.m */; };
+		DBF79C981BE0B113000CFA67 /* GoodsLoadMoreTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF79C941BE0B113000CFA67 /* GoodsLoadMoreTopView.m */; };
+		DBF79C991BE0B113000CFA67 /* ScorellButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF79C961BE0B113000CFA67 /* ScorellButtonView.m */; };
+		DBF79C9C1BE0B13B000CFA67 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF79C9B1BE0B13B000CFA67 /* UIViewExt.m */; };
+		DBF79CAA1BE0B1C9000CFA67 /* pulldown_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF79CA61BE0B1C9000CFA67 /* pulldown_icon@2x.png */; };
+		DBF79CAB1BE0B1C9000CFA67 /* pulldown_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF79CA71BE0B1C9000CFA67 /* pulldown_icon@3x.png */; };
+		DBF79CAC1BE0B1C9000CFA67 /* pullup_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF79CA81BE0B1C9000CFA67 /* pullup_icon@2x.png */; };
+		DBF79CAD1BE0B1C9000CFA67 /* pullup_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF79CA91BE0B1C9000CFA67 /* pullup_icon@3x.png */; };
+		DBF79CB01BE0B312000CFA67 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF79CAE1BE0B312000CFA67 /* Default-568h@2x.png */; };
+		DBF79CB11BE0B312000CFA67 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF79CAF1BE0B312000CFA67 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,24 @@
 		DBF79C791BE0AF7F000CFA67 /* WSPulldownCheckDetailSimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSPulldownCheckDetailSimpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF79C7E1BE0AF7F000CFA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBF79C7F1BE0AF7F000CFA67 /* WSPulldownCheckDetailSimpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSPulldownCheckDetailSimpleTests.m; sourceTree = "<group>"; };
+		DBF79C8A1BE0B0DA000CFA67 /* OneTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneTableViewController.h; sourceTree = "<group>"; };
+		DBF79C8B1BE0B0DA000CFA67 /* OneTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneTableViewController.m; sourceTree = "<group>"; };
+		DBF79C8C1BE0B0DA000CFA67 /* TwoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTableViewController.h; sourceTree = "<group>"; };
+		DBF79C8D1BE0B0DA000CFA67 /* TwoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewController.m; sourceTree = "<group>"; };
+		DBF79C911BE0B113000CFA67 /* GoodsLoadMoreFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsLoadMoreFootView.h; sourceTree = "<group>"; };
+		DBF79C921BE0B113000CFA67 /* GoodsLoadMoreFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsLoadMoreFootView.m; sourceTree = "<group>"; };
+		DBF79C931BE0B113000CFA67 /* GoodsLoadMoreTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsLoadMoreTopView.h; sourceTree = "<group>"; };
+		DBF79C941BE0B113000CFA67 /* GoodsLoadMoreTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsLoadMoreTopView.m; sourceTree = "<group>"; };
+		DBF79C951BE0B113000CFA67 /* ScorellButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScorellButtonView.h; sourceTree = "<group>"; };
+		DBF79C961BE0B113000CFA67 /* ScorellButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScorellButtonView.m; sourceTree = "<group>"; };
+		DBF79C9A1BE0B13B000CFA67 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		DBF79C9B1BE0B13B000CFA67 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		DBF79CA61BE0B1C9000CFA67 /* pulldown_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pulldown_icon@2x.png"; sourceTree = "<group>"; };
+		DBF79CA71BE0B1C9000CFA67 /* pulldown_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pulldown_icon@3x.png"; sourceTree = "<group>"; };
+		DBF79CA81BE0B1C9000CFA67 /* pullup_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullup_icon@2x.png"; sourceTree = "<group>"; };
+		DBF79CA91BE0B1C9000CFA67 /* pullup_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullup_icon@3x.png"; sourceTree = "<group>"; };
+		DBF79CAE1BE0B312000CFA67 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DBF79CAF1BE0B312000CFA67 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +111,15 @@
 		DBF79C621BE0AF7F000CFA67 /* WSPulldownCheckDetailSimple */ = {
 			isa = PBXGroup;
 			children = (
+				DBF79C901BE0B113000CFA67 /* WSPulldownCheckView */,
 				DBF79C671BE0AF7F000CFA67 /* AppDelegate.h */,
 				DBF79C681BE0AF7F000CFA67 /* AppDelegate.m */,
 				DBF79C6A1BE0AF7F000CFA67 /* ViewController.h */,
 				DBF79C6B1BE0AF7F000CFA67 /* ViewController.m */,
+				DBF79C8A1BE0B0DA000CFA67 /* OneTableViewController.h */,
+				DBF79C8B1BE0B0DA000CFA67 /* OneTableViewController.m */,
+				DBF79C8C1BE0B0DA000CFA67 /* TwoTableViewController.h */,
+				DBF79C8D1BE0B0DA000CFA67 /* TwoTableViewController.m */,
 				DBF79C6D1BE0AF7F000CFA67 /* Main.storyboard */,
 				DBF79C701BE0AF7F000CFA67 /* Images.xcassets */,
 				DBF79C721BE0AF7F000CFA67 /* LaunchScreen.xib */,
@@ -98,6 +133,8 @@
 			children = (
 				DBF79C641BE0AF7F000CFA67 /* Info.plist */,
 				DBF79C651BE0AF7F000CFA67 /* main.m */,
+				DBF79CAE1BE0B312000CFA67 /* Default-568h@2x.png */,
+				DBF79CAF1BE0B312000CFA67 /* Default.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +154,33 @@
 				DBF79C7E1BE0AF7F000CFA67 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBF79C901BE0B113000CFA67 /* WSPulldownCheckView */ = {
+			isa = PBXGroup;
+			children = (
+				DBF79CA51BE0B180000CFA67 /* Resource */,
+				DBF79C911BE0B113000CFA67 /* GoodsLoadMoreFootView.h */,
+				DBF79C921BE0B113000CFA67 /* GoodsLoadMoreFootView.m */,
+				DBF79C931BE0B113000CFA67 /* GoodsLoadMoreTopView.h */,
+				DBF79C941BE0B113000CFA67 /* GoodsLoadMoreTopView.m */,
+				DBF79C951BE0B113000CFA67 /* ScorellButtonView.h */,
+				DBF79C961BE0B113000CFA67 /* ScorellButtonView.m */,
+				DBF79C9A1BE0B13B000CFA67 /* UIViewExt.h */,
+				DBF79C9B1BE0B13B000CFA67 /* UIViewExt.m */,
+			);
+			path = WSPulldownCheckView;
+			sourceTree = "<group>";
+		};
+		DBF79CA51BE0B180000CFA67 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DBF79CA61BE0B1C9000CFA67 /* pulldown_icon@2x.png */,
+				DBF79CA71BE0B1C9000CFA67 /* pulldown_icon@3x.png */,
+				DBF79CA81BE0B1C9000CFA67 /* pullup_icon@2x.png */,
+				DBF79CA91BE0B1C9000CFA67 /* pullup_icon@3x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +264,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF79C6F1BE0AF7F000CFA67 /* Main.storyboard in Resources */,
+				DBF79CB11BE0B312000CFA67 /* Default.png in Resources */,
 				DBF79C741BE0AF7F000CFA67 /* LaunchScreen.xib in Resources */,
+				DBF79CAD1BE0B1C9000CFA67 /* pullup_icon@3x.png in Resources */,
+				DBF79CAA1BE0B1C9000CFA67 /* pulldown_icon@2x.png in Resources */,
+				DBF79CAC1BE0B1C9000CFA67 /* pullup_icon@2x.png in Resources */,
+				DBF79CB01BE0B312000CFA67 /* Default-568h@2x.png in Resources */,
+				DBF79CAB1BE0B1C9000CFA67 /* pulldown_icon@3x.png in Resources */,
 				DBF79C711BE0AF7F000CFA67 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF79C981BE0B113000CFA67 /* GoodsLoadMoreTopView.m in Sources */,
+				DBF79C991BE0B113000CFA67 /* ScorellButtonView.m in Sources */,
+				DBF79C8E1BE0B0DA000CFA67 /* OneTableViewController.m in Sources */,
+				DBF79C8F1BE0B0DA000CFA67 /* TwoTableViewController.m in Sources */,
+				DBF79C9C1BE0B13B000CFA67 /* UIViewExt.m in Sources */,
+				DBF79C971BE0B113000CFA67 /* GoodsLoadMoreFootView.m in Sources */,
 				DBF79C6C1BE0AF7F000CFA67 /* ViewController.m in Sources */,
 				DBF79C691BE0AF7F000CFA67 /* AppDelegate.m in Sources */,
 				DBF79C661BE0AF7F000CFA67 /* main.m in Sources */,
@@ -348,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WSPulldownCheckDetailSimple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WSPulldownCheckDetailSimple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
